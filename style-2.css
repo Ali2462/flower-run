@@ -1,0 +1,265 @@
+*,body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.main-container {
+	font-family: sans-serif;
+}
+.main-container div.first-box {
+	background-color: black;
+	height: 45px;
+}
+.main-container div.first-box div.inner-container {
+	max-width: 1116px;
+	display: grid;
+	grid-template-columns: 575px 110px 373px;
+	grid-template-rows: 1fr;
+	margin:auto;
+	line-height: 40px;
+	grid-gap: 20px;
+	padding-right:  55px;
+	padding-left: 55px;
+
+}
+.main-container div.first-box div.inner-container div.first-grid {
+	justify-self :right; 
+}
+.main-container div.first-box div.inner-container div.first-grid p{
+	color: white;
+	display: inline-block;
+}
+.main-container div.first-box div.inner-container div.third-grid i {
+	/*color:pink;*/
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 50%;
+	background-color: pink;
+	text-align: center;
+
+}
+.main-container div.first-box div.inner-container div.third-grid i:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.main-container div.first-box div.inner-container div.second-grid {
+	justify-self:center;
+}
+.main-container div.first-box div.inner-container div.second-grid a i;hover {
+	opacity: 0.7;
+	cursor: pointer;
+
+}
+.main-container div.first-box div.inner-container div.second-grid a i {
+	color:white;
+	margin: right 15px;
+}
+.main-container header div.inner-container-2 {
+	max-width: 1116px;
+	margin: auto;
+}
+.main-container header div.inner-container-2 div.header-menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	height: 159px;
+	line-height: 145px;
+	text-align: center;
+}
+.main-container header div.inner-container-2 div.header-menu div.right-menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.main-container header div.inner-container-2 div.header-menu div.right-menu ul a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.main-container header div.inner-container-2 div.header-menu div.right-menu ul a:hover {
+	color: pink;
+}
+.main-container header div.inner-container-2 div.header-menu div.rigth-menu ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.main-container header div.inner-container-2 div.header-menu div.right-menu ul li ul li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.main-container header div.inner-container-2 div.header-menu div.left-menu ul a:hover {
+	color: pink;
+}
+.main-container header div.inner-container-2 div.header-menu div.left-menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.main-container header div.inner-container-2 div.header-menu div.left-menu ul a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.main-container div.banner {
+	position: relative;
+	margin-bottom: 20px;
+}
+.main-container div.banner div.box{
+    width: 466px;
+    height: 200px;
+    position: absolute;
+    background-color: pink;
+    bottom: 25%;
+    left:  53%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+}
+
+.main-container div.banner div.box div.inner-data {
+	 border :white 9px solid;
+	 height: 145px;
+
+} 
+.main-container div.banner div.box div.inner-data h2 {
+	margin-top: 10px;
+	color: white;
+	font-family: amatic sc;
+	font-size: 65px;
+	text-align: center;
+}
+.main-container div.banner div.box div.inner-data h3 {
+	color: white;
+	text-align: center;
+}
+/*.inner-data h1{
+	text-align: center;
+}
+.inner-data h2{
+	text-align: center;
+}*/
+.main-container div.banner div.content {
+	max-width: 1116px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 390px 390px;
+	grid-gap: 0px;
+}
+.main-container div.banner div.content img {
+	margin-bottom: 30px;
+}
+.main-container div div.content-2 {
+	max-width: 1116px;
+	margin: auto;
+}
+.main-container div div.content-2 h1 {
+  font-family: amatic sc;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 55px;
+}
+.main-container div div.content-3 {
+	max-width: 1116px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 30px;
+	margin-bottom: 30px; 
+}
+.main-container div.middle-content div.inner-container-3 {
+	max-width: 1116px;
+	margin: auto;
+}
+.main-container div.middle-content div.inner-container-3 h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 55px;
+	font-family: amatic sc;
+}
+.main-container div.middle-content div.inner-container-3 div.text {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+	margin-bottom: 30px; 
+}
+.main-container div.middle-content div.inner-container-3 div.text div.text-1 h4 {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.main-container div.middle-content div.inner-container-3 div.text div.text-1 p {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.main-container div.middle-content div.inner-container-3 div.text div.text-1 p a {
+	text-decoration: none;
+	color: pink;
+}
+.main-container div.middle-content div.inner-container-3 div.text div.text-1 h2 {
+	font-size: 38px;
+	color: pink;
+}
+.main-container div.middle-content div.inner-container-3 div.text div.text-2 h4 {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.main-container div.middle-content div.inner-container-3 div.text div.text-2 p {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.main-container div.middle-content div.inner-container-3 div.text div.text-2 p a{
+	text-decoration: none;
+	color: pink;
+}
+.main-container div.footer {
+	background-color: black;
+}
+.main-container div.footer div.container {
+	max-width: 1116px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto 206px auto;
+	grid-gap: 20px;
+	/*height: 159px;*/
+	/*line-height: 145px;*/
+}
+.main-container div.footer div.container div.footer-left-menu {
+	margin-top: 60px;
+}
+.main-container div.footer div.container div.footer-left-menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.main-container div.footer div.container div.footer-left-menu ul a {
+	text-decoration: none;
+	color: grey;
+}
+.main-container div.footer div.container div.imgs {
+	margin-top: 10px;
+}
+.main-container div.footer div.container div.footer-left-menu div {
+	text-align: right;
+	margin-right: 60px;
+}
+.main-container div.footer div.container div.footer-left-menu div i {
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 50%;
+	background-color: pink;
+	text-align: center;
+}
+.main-container div.footer div.container div.paragraph-3 div {
+	margin-top: 60px;
+}
+.main-container div.footer div.container div.paragraph-3 div p {
+	color: grey;
+	
+}
